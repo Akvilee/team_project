@@ -49,6 +49,10 @@ font-weight: 100;
         background-position: 0 50%
     }
 }
+#customModal {
+    background-color: transparent;
+    font-size: 15px;
+}
 
 
 
