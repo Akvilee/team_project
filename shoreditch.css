@@ -1,0 +1,13 @@
+ h1 {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color:#FF6B6D;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+
+}
+#imagelist {
+	margin: 0 auto;
+}
