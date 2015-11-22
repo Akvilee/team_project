@@ -31,6 +31,7 @@ background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, F
 background-size: 1280px;
 height: 1050px;
 background-repeat: no-repeat;
+background-position: center center;
 
     }
 
