@@ -1,6 +1,6 @@
 h1 {
 
-color:#FF6B6D;
+color:black;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
   font-size:26px;
@@ -12,7 +12,7 @@ bottom: 25px;
 
 h2 {
   font-size: 20px;
-  color: #FF6B6D;;
+  color: black;
   font-family:'Raleway', sans-serif;
 font-weight: 100;
 padding: 20px;
@@ -40,6 +40,19 @@ background-repeat: no-repeat;
 
 }
 
+.hero-home-gradient {
+    background-position: cover;
+    background-image: url(http://trendland.com/wp-content/uploads/2015/02/invasions-by-charles-petillon-2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center;
+
+}
+
 
 #footer {
     background-color:white;
@@ -62,9 +75,7 @@ background-repeat: no-repeat;
 	bottom:140px;
 	position: relative;
 
-#myModal{
-	padding:40px;
-}  
+ 
 
 
 }
@@ -76,7 +87,7 @@ background-repeat: no-repeat;
 }
 
 nav {
-
+color:white;
 line-height:30px;
     height:300px;
     width:100px;
@@ -100,7 +111,7 @@ a:hover, a:focus {
 }
 
 a {
-	color:#257D9E;
+	color:#FF6B6D;
 	font-family:'Raleway', sans-serif;
 }
 
@@ -114,6 +125,9 @@ background:none;
 }
 
     
+
+ 
+
 
  
 
