@@ -14,3 +14,6 @@
         display: table-cell;
     }
 
+.image-container :hover {
+	opacity: 0.3; filter: alpha(opacity=30);
+}
