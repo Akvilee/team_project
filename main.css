@@ -1,60 +1,107 @@
-
 h1 {
 
-color:white;
-font-size: 30px;
-font-family: font-family: 'Raleway', sans-serif;
-font-weight: 100;
+color:#FF6B6D;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+  font-size:26px;
+position: relative;
+padding-left: 20px;
+bottom: 25px;
 
 }
 
 h2 {
   font-size: 20px;
-  color: white;
-  font-family: font-family: 'Raleway', sans-serif;
+  color: #FF6B6D;;
+  font-family:'Raleway', sans-serif;
 font-weight: 100;
+padding: 20px;
+position: relative;
+padding-left: 20px;
+bottom:55px;
 }
 
 
 
 .hero-home-gradient {
 
-    background: #670FA9;
-    background-size: 1024px;
-    height: 700px;
-    background: linear-gradient(to right, #670FA9, #0F3BA9, #0E60A4, #0FA998, #15A974, #28A90F);
-    background-size: 1000% 1000%;
-    -webkit-animation: hero-bg-gradient 25s ease 15;
-    animation: hero-bg-gradient 25s ease 15
+background: #43cea2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+background-size: 1280px;
+height: 1050px;
+background: cover;
+
+    }
+
+.hero-home-gradient {
+
+	padding-top: 20px;
+
 }
-@-webkit-keyframes hero-bg-gradient {
-    0% {
-        background-position: 0 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0 50%
-    }
-}
-@keyframes hero-bg-gradient {
-    0% {
-        background-position: 0 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0 50%
-    }
+
+
+#footer {
+    background-color:white;
+    color:#FF6B6D;
+    text-align:center;
+    padding:5px; 
+    font-family: 'Raleway', sans-serif;
 }
 #customModal {
     background-color: transparent;
     font-size: 15px;
 }
 
+.btn-group {
+	font-family:'Raleway', sans-serif;
+	float:right;
+	right:20px;
+	bottom:140px;
+	position: relative;
+    
 
+
+}
+
+
+
+.caret {
+	color:white;
+}
+
+nav {
+
+line-height:30px;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:20px;
+    font-family:'Raleway', sans-serif;
+    color:white;
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: 100;
+    
+
+
+}
+a:hover, a:focus {
+    color: #FF6B6D;
+    text-decoration: underline;
+    text-decoration: white;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+a {
+	color:#257D9E;
+	font-family:'Raleway', sans-serif;
+}
+
+
+
+    
 
  
 
