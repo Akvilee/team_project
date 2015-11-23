@@ -82,6 +82,9 @@ float:center;
 
 }
 
+.dropdown-menu {
+    top: -147%;
+}
 
 nav {
 color:white;
