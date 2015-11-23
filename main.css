@@ -51,6 +51,8 @@ background-position: center center;
 
 }
 
+#hero-home-gradien { background-size: cover; }
+
 
 #footer {
     background-color:white;
